@@ -1,0 +1,495 @@
+/* Common Shared Styles */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 83%;
+    max-width: 1440px;
+    margin: 42px auto;
+    position: relative;
+    border-radius: 16px;
+    vertical-align: middle;
+    overflow: hidden;
+
+
+}
+
+/* 
+
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+
+
+*/
+
+
+/* Header Styles */
+
+.new-year {
+
+    position: relative;
+
+
+}
+
+
+
+.banner .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.banner-text h3 {
+    color: #FFF;
+
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+
+    font-weight: 400;
+}
+
+.banner-text h1 {
+    color: #FFF;
+
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+
+    font-weight: 900;
+}
+
+/* Main Section */
+
+
+/* Discount Message */
+
+.discount-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.discount-message .discount h1 {
+    color: #F00;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    margin-top: 45px;
+    font-weight: 700;
+
+}
+
+.discount-message .discount h3 {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    font-size: 24px;
+
+    font-weight: 500;
+
+}
+
+.discount-message .discount h2 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    margin-top: 15px;
+    font-size: 48px;
+
+    font-weight: 700;
+
+}
+
+.discount-message img {
+    width: 55%;
+    height: 500px;
+    margin: 45px 0px;
+}
+
+
+/* Welcome Party Message */
+
+.welcome-party .party-message {
+    position: absolute;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+    top: 20%;
+
+}
+
+.welcome-party .party-message h1 {
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+}
+
+.welcome-party .party-message .Mess {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+
+
+    line-height: 30px;
+    margin: 40px 0px;
+
+
+}
+
+.welcome-party .party-message h4 {
+    color: #FFF;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+
+
+
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+.welcome-party .party-message img {
+    width: 300px;
+    height: 460px;
+    margin-bottom: 60px;
+    margin-left: 90px;
+
+}
+
+.welcome-party .party-message .party-message-invitation {
+    margin-left: 100px;
+}
+
+
+/* Place Section */
+
+
+.place {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 5px;
+
+}
+
+.red {
+    color: #F00;
+}
+
+.black {
+    color: #070211;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+
+
+}
+
+button {
+    color: #FFF;
+    border-radius: 8px;
+    padding: 16px 32px;
+    background: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    margin: 40px;
+}
+
+
+/* Offer Section */
+.offer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+.offer-section .new-offer p {
+    width: 326px;
+
+}
+
+.another {
+    font-size: 48px;
+}
+
+.Pera {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-section>img {
+    width: 342x;
+    height: 342px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+    margin-right: 128px;
+
+}
+
+.offer-section .wishing-message p {
+    width: 230px;
+}
+
+
+.functional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 290px;
+    overflow: hidden;
+}
+
+.wishing-message img {
+    margin: 50px 0px 20px 0px;
+}
+
+
+/* 50% off Section */
+
+.functional h4 {
+    color: #070211;
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.functional .another {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+}
+
+
+.functional p {
+    width: 700px;
+    text-align: center;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+
+}
+
+
+
+.functional * {
+    padding-bottom: 15px;
+}
+
+/* Image Section */
+
+.image-section {
+    margin-top: 100px;
+    text-align: center;
+
+
+}
+
+.img-4 {
+    position: relative;
+    margin-top: 200px;
+    width: 100%;
+    height: 190px;
+
+
+}
+
+.image-section .img-1 {
+    position: absolute;
+    width: 500px;
+    height: 380px;
+    z-index: 1;
+    bottom: 16%;
+    left: 12%;
+}
+
+.img-3 {
+    position: absolute;
+    width: 357px;
+    height: 360px;
+    left: 72%;
+    bottom: 49%;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.img-2 {
+    position: absolute;
+    left: 66%;
+    bottom: 61%;
+    z-index: 1;
+    width: 178px;
+    height: 178px;
+}
+
+/* The Best Gift Sections */
+
+.gifts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    row-gap: 20px;
+    margin-top: 100px;
+
+}
+
+.gifts .black {
+    font-family: 'Merriweather', serif;
+}
+
+.gifts .section-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+.gifts .img {
+    width: 372px;
+    height: 394px;
+    border-radius: 16px;
+
+}
+
+.gifts .section-1 * {
+    margin-bottom: 15px;
+}
+
+/* Subscribe Section */
+
+.subscribe {
+    text-align: center;
+}
+
+/* .subscribe input {
+    width: 555px;
+    height: 60px;
+    border-radius: 50px;
+    background: #FFF;
+} */
+.subscribe form {
+    display: flex;
+    padding: 16px 32px;
+    color: #FFF;
+    gap: 0px;
+
+}
+
+.subscribe button {
+
+    border-radius: 0px 50px 50px 0px;
+    border-left: none;
+    margin-left: 0px;
+}
+
+.subscribe input {
+    color: #FFF;
+    /* border-radius: 8px; */
+    padding: 16px 32px;
+
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    text-transform: uppercase;
+    margin: 40px;
+    border-radius: 50px 0px 0px 50px;
+    margin-right: 0px;
+    color: #070211;
+
+}
+
+
+/* Footer Section */
+
+footer {
+    background-color: #070211;
+}
+
+hr{
+    background: rgba(255, 255, 255, 0.15);
+    margin:0px 90px 80px 50px;
+}
+
+footer .section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section ,.final-section {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    
+}
+
+.section .div-1{
+    padding: 150px 0px 80px 50px;
+    
+}
+
+.section .div-2{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 150px 150px 0px;
+    
+}
+
+.div-2 .div-1-2{
+    display: flex;
+}
+
+.div-2 .div-2-2{
+    display: flex;
+}
+
+.div-2 img{
+    margin-right: 20px;
+}
+
+
+footer .social-media{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 80px;
+}
+
+
+.final-section{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.final-section *{
+    margin: 50px;
+    padding-bottom: 30px;
+}
